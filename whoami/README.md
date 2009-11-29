@@ -48,5 +48,5 @@ Log in by adding 'login' to the end of the path in the URL and entering the user
 
 See the [BuiltinAuth class](http://github.com/nexgenta/eregansu/blob/master/auth.php) for the code behind this authentication system.
 
-Note that, as there is no identity database present, you can’t log in with any other kind of authentication system, such as OpenID (you would authenticate successfully, but be denied access to actually log in). You can see this in action by visiting /login/openid instead of just /login.
+Note that, as there is no identity database present, you can’t log in with any other kind of authentication system, such as OpenID (you would authenticate successfully, but be denied permission to actually log in; both the “builtin” and “posix” schemes have special dispensation to work without an identity layer). You can see this in action by visiting /login/openid instead of just /login.
 

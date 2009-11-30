@@ -1,3 +1,6 @@
 [submodule "platform"]
 	path = platform
 	url = git://github.com/nexgenta/eregansu.git
+[submodule "whoami/Chroma-Hash"]
+	path = whoami/Chroma-Hash
+	url = git://github.com/mattt/Chroma-Hash.git

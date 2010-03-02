@@ -1,1 +1,4 @@
-config.php
+/config.php
+/appconfig.php
+/config.*.php
+
